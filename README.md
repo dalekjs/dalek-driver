@@ -12,13 +12,13 @@ The driver *must* expose the following base API:
 //    options - TODO
 //  throws
 //    TypeError - when dissatisfied with options
-function Browser(options) {}
+function Driver(options) {}
 
 // default options map
-Browser.defaults = {};
+Driver.defaults = {};
 
 // behavior map
-Browser.prototype.behaviors = {};
+Driver.prototype.behaviors = {};
 
 // method to start the service
 //  arguments:
@@ -27,15 +27,15 @@ Browser.prototype.behaviors = {};
 //    failureCallback(error instanceof Error, options) - when the process crashes mid run
 //  throws
 //    Error - when process is already running
-Browser.prototype.start(successCallback, errorCallback, failureCallback);
+Driver.prototype.start(successCallback, errorCallback, failureCallback);
 
 // method to gracefully stop the service
 //  arguments:
 //    callback() - when the process was stopped successfully
-Browser.prototype.stop(callback);
+Driver.prototype.stop(callback);
 
 // method to force stop the service
-Browser.prototype.kill();
+Driver.prototype.kill();
 ```
 
 ## Behaviors

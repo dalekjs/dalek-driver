@@ -1,0 +1,22 @@
+{
+  "name": "dalek-driver",
+  "version": "0.1.0",
+  "description": "Dalek Driver API definitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dalekjs/dalek-driver.git"
+  },
+  "keywords": [
+    "dalekjs"
+  ],
+  "author": "Rodney Rehm <mail+github@rodneyrehm.de> (http://rodneyrehm.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dalekjs/dalek-driver/issues"
+  },
+  "homepage": "https://github.com/dalekjs/dalek-driver"
+}
